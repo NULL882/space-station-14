@@ -18,3 +18,7 @@ ent-ClothingUniformJumpskirtPilot = юбка-комбинезон пилота �
     .desc = Это юбка пилота службы безопасности.
 ent-ClothingUniformJumpskirtMagistrate = юбка-комбинезон магистрата
     .desc = Это комбинезон судьи корпоративного закона.
+ent-ClothingUniformJumpskirtCorporate = юбка-комбинезон инспектора
+    .desc = Более лёгкая официальная форма корпоративного инспектора.
+ent-ClothingUniformJumpskirtCorporateFormal = торжественный костюм инспектора
+    .desc = Стандартный официальный вид корпоративного инспектора.

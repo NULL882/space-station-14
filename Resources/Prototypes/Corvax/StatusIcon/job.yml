@@ -21,3 +21,11 @@
     sprite: /Textures/Corvax/Interface/Misc/job_icons.rsi
     state: Magistrate
   jobName: job-name-magistrate
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconInspector
+  icon:
+    sprite: /Textures/Corvax/Interface/Misc/job_icons.rsi
+    state: Inspector
+  jobName: job-name-inspector

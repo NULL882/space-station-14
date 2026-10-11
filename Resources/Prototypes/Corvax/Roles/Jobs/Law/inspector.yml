@@ -1,0 +1,63 @@
+- type: job
+  id: CorporateInspector
+  name: job-name-inspector
+  description: job-description-magistrate
+  playTimeTracker: JobCorporateInspector
+  whitelisted: true
+  guides: [ SpaceLaw ]
+  requirements:
+  - !type:TraitsRequirement
+    inverted: true
+    traits:
+    - Muted
+  startingGear: MagistrateGear
+  icon: "JobIconMagistrate"
+  supervisors: job-supervisors-centcom
+  access:
+  - Command
+  - Brig
+  - Maintenance
+  - External
+  - Security
+  - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+
+- type: startingGear
+  id: InspectorGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    neck: ClothingNeckLawyerbadge
+    id: InspectorPDA
+    eyes: ClothingEyesGlassesCommand
+    gloves: ClothingHandsGlovesColorWhite
+    ears: ClothingHeadsetMagistrate
+    pocket1: BoxFolderBlackThreePapers
+  storage:
+    back:
+    - Flash
+    - MagistrateGavel
+    - GavelBlock
+    - RubberStampMagistrate
+    - RubberStampApproved
+    - RubberStampDenied
+    - PortableScreenTimer
+  inhand:
+  - BriefcaseBrownFilled
+
+- type: chameleonOutfit
+  id: InspectorChameleonOutfit
+  job: CorporateInspector
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatPwigFancy
+    jumpsuit: ClothingUniformJumpsuitMagistrate
+    eyes: ClothingEyesGlassesSunglasses
+    neck: ClothingNeckLawyerbadge
+    gloves: ClothingHandsGlovesColorWhite
+    mask: ClothingMaskBreath
+    shoes: ClothingShoesBootsLaceup

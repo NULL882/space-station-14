@@ -51,3 +51,21 @@
       state: Magistrate
   - type: PresetIdCard
     job: Magistrate
+
+- type: entity
+  parent: IDCardStandard
+  id: InspectorIDCard
+  name: inspector's ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: stripe_top
+      color: "#1b67a5"
+    - state: stripe_bottom
+      color: "#0e4069"
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Inspector
+  - type: PresetIdCard
+    job: CorporateInspector

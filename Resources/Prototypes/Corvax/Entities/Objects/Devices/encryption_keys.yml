@@ -30,3 +30,20 @@
       layers:
       - state: crypt_gray
       - state: nano_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeySecLegal
+  name: legal encryption key
+  description: An encryption key used by the most meticulous person.
+  components:
+    - type: EncryptionKey
+      channels:
+      - Common
+      - Security
+      - Legal
+      defaultChannel: Legal
+    - type: Sprite
+      layers:
+      - state: crypt_silver
+      - state: nano_label

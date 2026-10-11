@@ -4,10 +4,13 @@
   description: job-description-lawyer
   playTimeTracker: JobLawyer
   requirements:
+    - !type:DepartmentTimeRequirement # Corvax-Inspector
+      department: Security
+      time: 5h
     - !type:OverallPlaytimeRequirement
       time: 2.5h
   startingGear: LawyerGear
-  setPreference: false # Corvax-IAA
+  setPreference: true
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
   guides: [ SpaceLaw ] # TODO: should have a more specific guidebook page instead of just linking to Space Law

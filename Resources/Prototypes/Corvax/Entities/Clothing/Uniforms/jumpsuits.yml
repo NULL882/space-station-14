@@ -118,3 +118,25 @@
     sprite: Corvax/Clothing/Uniforms/Jumpsuit/magistrateformal.rsi
   - type: Clothing
     sprite: Corvax/Clothing/Uniforms/Jumpsuit/magistrateformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCorporate
+  name: corporate's jumpsuit
+  description: A lighter formal uniform for corporate inspectors.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/corporate.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/corporate.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCorporateFormal
+  name: corporate's formal suit
+  description: The standard, formal look of a corporate inspector.
+  components:
+  - type: Sprite
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/corporateformal.rsi
+  - type: Clothing
+    sprite: Corvax/Clothing/Uniforms/Jumpsuit/corporateformal.rsi

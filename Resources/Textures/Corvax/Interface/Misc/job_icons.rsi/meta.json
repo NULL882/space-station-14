@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Pilot icon made by poemota (Discord), Magistrate icon made by _Svist_. (Discord)",
+    "copyright": "Pilot icon made by poemota (Discord), Magistrate icon made by _Svist_. (Discord), Inspector icon made by KBAS5 (Discord)",
     "size": {
         "x": 8,
         "y": 8
@@ -15,6 +15,9 @@
         },
         {
             "name": "Pilot"
+        },
+        {
+            "name": "Inspector"
         }
     ]
 }
